@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Nidebon.Com.Api.Controllers
+namespace Nidedan.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

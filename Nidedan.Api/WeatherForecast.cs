@@ -1,4 +1,4 @@
-namespace Nidebon.Com.Api
+namespace Nidedan.Api
 {
     public class WeatherForecast
     {

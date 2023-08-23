@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nibedon-ui": {
+    "nibedan-ui": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/nibedon-ui",
+            "outputPath": "dist/nibedan-ui",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "nibedon-ui:build:production"
+              "browserTarget": "nibedan-ui:build:production"
             },
             "development": {
-              "browserTarget": "nibedon-ui:build:development"
+              "browserTarget": "nibedan-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nibedon-ui:build"
+            "browserTarget": "nibedan-ui:build"
           }
         },
         "test": {
